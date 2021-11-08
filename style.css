@@ -10,6 +10,10 @@ img,.text-div
     left:50%;
     transform: translate(-50%,-50%);
 }
+img:hover{
+    transition: 0.1s all;
+    box-shadow: 10px 10px 12px 12px black;
+}
 footer{
     position:absolute;
     top:100%;
@@ -23,7 +27,9 @@ footer{
 }
 .text-div{
     background:none;
-    font-size:4.5rem;
+    font-size:3rem;
+    margin:0.5rem;
+    padding:2rem;
 }
 .text-div:hover,img:hover{
     cursor: pointer;
